@@ -11,7 +11,7 @@ function ImageCard(props) {
       <div>
         <div className="card cardContainer">
             <div  className="card-image">
-                <img className="imageGrid" id={props.imageName} src={props.imageUrl} alt="..." />
+                <img className="imageGrid preview-image" id={props.imageName} src={props.imageUrl} alt="..." />
             </div>
           <div className="card-action">
             <a className="modal-trigger " href={hrefUrl}><p className="truncate" style={{color: blue_shade.Light}} >{props.imageName}</p></a>
